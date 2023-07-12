@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            /* width: 100vw; */
+        }
+
+        div{
+            display: flex;
+            
+            list-style-type: none;
+            gap: 20px;
+            
+            
+        }
+
+        div li{
+            background-color: rgb(175, 173, 173);
+            height: 280px;
+            width: 250px;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+
+        }
+
+        .delete-btn{
+            margin-top: 80px; 
+            background-color: grey;
+            
+        }
+
+        a{
+            
+            text-decoration: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+            
+        }
+
+        a button{
+            height: 30px;
+            background-color: #414747;
+            color: white; 
+            padding: 5px;
+        }
+
+        #myHeading{
+            padding: 20px;
+            
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <h2 id="myHeading">My DICTIONARY App History</h2>
+    <a href="/index.html"><button>SEARCH</button></a>
+    <div id="history"></div>
+    <script src="/hist.js"></script>
+</body>
+</html>
